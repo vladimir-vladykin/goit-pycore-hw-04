@@ -1,5 +1,5 @@
-# Reads files from path, extracts data, and calculated total and medium salaries.
-# Does not throws anything, instead handles all exceptions by itself, and in case of error
+# Reads file from path, extracts data, and calculated total and medium salaries.
+# Does not throw anything, instead handles all exceptions by itself, and in case of error
 # logs message and just returns fallback data. 
 def total_salary(path: str) -> tuple[float, float]:
     fallback_result = (0.0, 0.0)
